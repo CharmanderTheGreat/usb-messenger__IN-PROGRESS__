@@ -1,0 +1,19 @@
+# Identity files -- private, unique per USB, NEVER commit these
+identity.key
+face_template.dat
+
+# Python cache/build junk
+__pycache__/
+*.pyc
+venv/
+env/
+
+# PyInstaller build output
+build/dist/
+build/work_test/
+build/build/
+*.spec.bak
+
+# OS junk
+.DS_Store
+Thumbs.db
